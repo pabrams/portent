@@ -44,7 +44,7 @@ const BlogIndex = ({
     const Posts = edges
       .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
       .map(edge => <li style={listItemStyles}><PostLink key={edge.node.id} post={edge.node} /></li>)
-      
+
     return (
         <main style={pageStyles}>
         <h1 style={headingStyles}>
