@@ -1,4 +1,4 @@
----
+
 slug: "/quest-for-the-perfect-linux-distro"
 date-created: "2021-03-09"
 title: "My quest for the perfect linux distribution"
